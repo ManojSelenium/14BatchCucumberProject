@@ -12,7 +12,7 @@ Steps steps;
 	
 	@And("^user enter first name \"([^\"]*)\"$")
 	public void enterFirstName(String firstName) {
-		
+	System.out.println("First commit");	
 		steps.accountPage.enterFirstName(firstName);
 	}
 	
